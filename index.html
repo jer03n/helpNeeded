@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Film Finder</title>
+    <script type="text/javascript" defer src="script-movies.js"></script>
+    <script type="text/javascript" defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" class="movies">
+    <header class="header">
+        <div class="header-image">
+            <h1>Film Finder</h1>
+        </div>
+    </header>
+        <nav>
+            <ul class="site-menu">
+                <div>
+                    <h3>Please select your search criteria:</h3>
+                </div>
+                <div id="radio-button-list">
+                    <input type="radio" id="new-movies" name="movie_selection" value="NewMovies">
+                        <label for="new-movies">Latest Movies</label><br>
+                    <input type="radio" id="avenger" name="movie_selection" value="Avenger">
+                        <label for="avenger">Avenger</label><br>
+                    <input type="radio" id="x-men" name="movie_selection" value="XMen">
+                        <label for="x-men">X-Men</label><br>
+                    <input type="radio" id="princess" name="movie_selection" value="Princess">
+                        <label for="princess">Princess</label><br>
+                    <input type="radio" id="batman" name="movie_selection" value="Batman">
+                        <label for="batman">Batman</label><br><br>
+                </div>
+                <div>
+                    <h3>Or search on title: </h3>
+                </div>
+                <div id="search-bar">
+                    <input type="text" placeholder="Search..">
+                </div>
+            </ul>
+        </nav> <br><br>
+    <main class="container">
+        <ul id="all-movies-list">
+
+        </ul>
+    </main>
+     <footer>
+        <div class="footer-banner">
+
+        </div>
+    </footer>
+</body>
+</html>
